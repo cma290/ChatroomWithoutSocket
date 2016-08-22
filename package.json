@@ -1,0 +1,9 @@
+{
+  "name": "web-chat-room",
+  "version": "0.0.1",
+  "description": "Stella web challenge",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

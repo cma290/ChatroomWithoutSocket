@@ -1,0 +1,110 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body { 
+	font: 13px Helvetica, Arial; 
+	background-color: #eee;
+}
+
+form { 
+	background: grey; 
+	padding: 3px; 
+	position: fixed; 
+	bottom: 0px; 
+	width: 100%; 
+}
+
+form input { 
+	border: 0; 
+	padding: 10px; 
+	width: 70%; 
+	margin-right: .5%; 
+}
+form button { 
+	width: 29%; 
+	background: rgb(130, 224, 255); 
+	border: none; 
+	padding: 10px; 
+}
+
+#messages { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#messages li { 
+	padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd) { 
+	background: #eee; 
+}
+
+.login-form{
+	position: static;
+	width: 400px;
+	margin:auto;
+}
+
+.logout-btn{
+	padding: 10px;
+	float: right;
+	margin:20px;
+	font-size: 20px;
+}
+
+.nickname-error{
+	color: red;
+	font-weight: bold;
+}
+
+.header{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.input-box-header{
+	margin:10px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.msg-wrapper{
+	position: relative;
+	width:70%;
+	padding:20px;
+	background-color: lightgreen;
+	border: 1px solid #ccc;
+	margin:20px 0 20px 90px;
+}
+.msg-avatar{
+	float:left;
+	margin: -20px 0 0 -80px;
+}
+
+.msg-name{
+	font-weight: bold;
+}
+
+.msg-time{
+	position: absolute;
+	top: 20px;
+	right:20px;
+}
+
+.msg-text{
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.user-avatar{
+	margin-left:50px;
+}
+
+.welcome-msg{
+	font-size: 20px;
+}

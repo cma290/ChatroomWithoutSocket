@@ -1,0 +1,10 @@
+<img class="user-avatar" src="http://api.adorable.io/avatar/50/{{id}}">
+<span class="welcome-msg">Welcome, {{nickname}}!</span>
+<!-- <message nickname='testing'></message> -->
+
+<button class="logout-btn" ng-click="logout()">Logout</button>
+
+<ul id="messages"></ul>
+<form ng-submit="sendMsg()">
+	<input id="m" autocomplete="off" ng-model="msgToSend"/><button>Send</button>
+</form>
