@@ -1,6 +1,7 @@
 # ChatroomWithoutSocket
-long pulling online group chat. Tons of bugs right now -.-
+Fake Long pulling online group chat.  
+Tons of bugs right now -.-  
 
 ## To run in nodejs: 
-npm install
+npm install  
 node server
