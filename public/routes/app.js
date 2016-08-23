@@ -75,7 +75,7 @@ app.controller("HomeController", function($compile, $timeout, $http, $scope, $lo
 	};
 	retrieveMsgs();
 
-	//append message to end of ul
+	//append message to end of ul, and scroll to bottom
 	var appendmsg = function(name, msg, time, id){
 		var ul = angular.element(document.querySelector('#messages'));	
 		// var info = {name:name,msg:msg,time:time,id:id};
@@ -92,6 +92,9 @@ app.controller("HomeController", function($compile, $timeout, $http, $scope, $lo
 				 	+ "<p class='msg-text'>"+msg+"</p>"
 				 + "</div>"
 				 );
+		//var list = document.getElementById("messages");
+		//list.scollTop = list.scrollHeight;
+		window.scrollTo(0, 10000);
 	}
 
 	//send a message to chat room
